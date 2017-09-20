@@ -14,7 +14,7 @@
 #### git commit :git commit -m "引号内是你自己操作描叙"
 git add 是将 “记录的修改——人” 放在一个空间 我把它叫 候车区
 
-git commit 是 将 上面 候车区 的 人 统一 发车（推送到我们的master主分支）
+git commit 是 将 上面 候车区 的 人 统一 装车（推送到我们的master主分支）
 
 
   

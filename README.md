@@ -19,14 +19,9 @@ git commit 是 将 上面 候车区 的 人 统一 ***装车***（推送到我�
 (首先要在 GitHub配置 SSH钥匙 _在终端操作_）
 
 首次使用git 需要事先添加 用户名 和邮箱：
-<<<<<<< HEAD
- `$ git config --global user.name "引号这里输入你的账号名字"`
-=======
 
  `$ git config --global user.name "引号这里输入你的账号名字" 
  `
->>>>>>> 677239cf09ab82f081ae149c9dc54a17d21ee918
- 
   ` $ git config --global user.email "引号这里输入你的邮箱"
 `
  
@@ -45,5 +40,4 @@ git commit 是 将 上面 候车区 的 人 统一 ***装车***（推送到我�
 
 `$git push -u origin master 
 `  
-测试二次推送
 

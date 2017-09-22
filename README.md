@@ -19,6 +19,7 @@ git commit 是 将 上面 候车区 的 人 统一 ***装车***（推送到我�
 (首先要在 GitHub配置 SSH钥匙 _在终端操作_）
 
 首次使用git 需要事先添加 用户名 和邮箱：
+
  `$ git config --global user.name "引号这里输入你的账号名字" 
  `
  
@@ -28,13 +29,13 @@ git commit 是 将 上面 候车区 的 人 统一 ***装车***（推送到我�
  在终端获取SSH钥匙 命令：
  ` $ ssh-keygen -t rsa -C"你的git的用户邮箱" `，就凭感觉enter 下去  
  接着
- 
  `$cd ~/.ssh` ——`$ls`——`$cat id_rsa.pub 
 ` 
 
 下面出现你眼前的就是SSH 钥匙的公匙 复制 到GitHub设置SSH钥匙的页面 去 add 就好。
  
 最后回到终端 输入推送的命令：
+
 `$git remote add origin git@github.com:github账号/仓库名.git
 `
 
